@@ -19,6 +19,8 @@ function App() {
 
   const handleChange = (value) => setCateg(value);
 
+  const addButtonStyle = { width: '30%', margin: '20px 20px 20px 0' };
+
   return (
     <Container
       maxWidth='lg'
@@ -29,7 +31,7 @@ function App() {
         padding: '10px',
       }}>
       <ButtonComponent
-        style={{ width: '30%', margin: '20px 20px 20px 0' }}
+        style={addButtonStyle}
         title={'Add'}
         onClick={handleClickOpen}
         icon={<AddCircleIcon />}

@@ -11,6 +11,8 @@ function Display(props) {
 
   const [stop, setStop] = React.useState(8);
 
+  const loadMoreButtonStyle = { width: '60%', margin: '20px 20px 20px 0' };
+
   React.useEffect(() => {
     setStop(8);
   }, [categ]);
@@ -70,7 +72,7 @@ function Display(props) {
       </Grid>
       {filteredStorage.length > 8 && filteredStorage.length > stop && (
         <ButtonComponent
-          style={{ width: '60%', margin: '20px 20px 20px 0' }}
+          style={loadMoreButtonStyle}
           title={'Load More'}
           onClick={handleLoadMore}
           icon={<ArrowDropDownCircleIcon />}
