@@ -1,8 +1,10 @@
+# De vaja software developer trainee application assignment
 
-De vaja software developer trainee application assignment
-===
+Link to the App hosted at Firebase:
 
-*Exercise 2. (React/JS/HTML/CSS)*
+# https://devaja2assignment.firebaseapp.com/
+
+_Exercise 2. (React/JS/HTML/CSS)_
 
 ## Installation
 
@@ -18,15 +20,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Tasks
 
 - UI has an "ADD" button which creates a pop-up form to enter following
-information
-    - Question for The Guru (text field)
-    - Category (select menu with options "HTML", "CSS", "JS")
-    - SAVE and CANCEL buttons
+  information - Question for The Guru (text field) - Category (select menu with options "HTML", "CSS", "JS") - SAVE and CANCEL buttons
 - If user saves the entry it is stored in local storage including the date of the entry.
 - When there are entries available they are shown on screen in a scalable grid
-layout with the latest ones on top and oldest on bottom
+  layout with the latest ones on top and oldest on bottom
 - Create a select menu to filter the shown entries by category
-
 
 ![image](https://user-images.githubusercontent.com/55087458/86115253-5b8cab00-bad4-11ea-8cb0-24a67ebd5019.png)
 
